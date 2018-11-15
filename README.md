@@ -1,1 +1,1 @@
-Various examples of how to use Handler in an Android app
+Various examples of how to use Intents and BroadcastReceivers in an Android app
