@@ -88,7 +88,7 @@ class PiCalcService: Service(), CoroutineScope {
             var shouldAdd = true
             var result = 0.0
 
-            while(iterationCount < iterations) {
+            while(iterationCount < iterations && isActive) {
                 iterationCount++
 
                 val coefficient = if(shouldAdd) 1.0 else -1.0
