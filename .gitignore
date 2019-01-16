@@ -6,6 +6,5 @@
 .DS_Store
 /build
 /captures
-/app-green/build
-/app-blue/build
+/app/build
 output.json
