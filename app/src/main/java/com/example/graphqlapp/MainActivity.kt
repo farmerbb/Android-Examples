@@ -2,27 +2,15 @@ package com.example.graphqlapp
 
 import android.os.Bundle
 import android.view.MenuItem
-import android.view.View
-import android.view.ViewGroup
-import android.view.ViewGroup.LayoutParams.MATCH_PARENT
-import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE
 
 class MainActivity: AppCompatActivity() {
 
-    private val viewId = View.generateViewId()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        val contentView = FrameLayout(this).apply {
-            layoutParams = ViewGroup.LayoutParams(MATCH_PARENT, MATCH_PARENT)
-            id = viewId
-        }
-
-        setContentView(contentView)
+        setContentView(R.layout.activity_main)
 
         if(savedInstanceState == null)
             navigateTo(ArtistSearchFragment(), false)
@@ -48,7 +36,7 @@ class MainActivity: AppCompatActivity() {
                 addToBackStack(null)
             }
 
-            replace(viewId, fragment)
+            replace(R.id.fragment_container, fragment)
             commit()
         }
     }
