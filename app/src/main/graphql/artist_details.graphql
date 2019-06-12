@@ -1,0 +1,24 @@
+query ArtistDetailsQuery($mbid: MBID!) {
+
+    lookup {
+        artist(mbid: $mbid) {
+            fanArt {
+                banners {
+                    url(size: FULL)
+                }
+            }
+            name
+            releases(first: 30, type: ALBUM, status: OFFICIAL) {
+                edges {
+                    node {
+                        title
+                        date
+                        coverArtArchive {
+                            front(size: FULL)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,9 +1,4 @@
 <resources>
-    <string name="app_name">BackgroundExec</string>
-    <string name="pull_down_notification_drawer">Pull down notification drawer to see status</string>
-    <string name="calculating_pi">Calculating pi&#8230;</string>
-    <string name="pi_calculated">Pi calculated</string>
-    <string name="stop">Stop</string>
-    <string name="message_scheduled">Message scheduled</string>
-    <string name="message_received">Message received</string>
+    <string name="app_name">GraphQL Example</string>
+    <string name="search_for_artist">"Search for artist&#8230;"</string>
 </resources>

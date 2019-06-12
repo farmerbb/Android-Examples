@@ -1,1 +1,1 @@
-Examples of how to perform background execution using Kotlin coroutines and an Android service with a notification.  Also includes an example of how to use AlarmManager to display a notification at a predetermined time.
+Example of how to implement network requests in an Android app using GraphQL and Apollo Client.

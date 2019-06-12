@@ -1,0 +1,20 @@
+query ArtistSearchQuery($input: String!) {
+    search {
+        artists(query: $input) {
+            edges {
+                node {
+                    name
+                    mbid
+                    area {
+                        name
+                    }
+                    fanArt {
+                        thumbnails {
+                            url(size: PREVIEW)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
