@@ -34,12 +34,12 @@ class MainViewModel: ViewModel() {
             ).build()
 
     private val apolloClient = ApolloClient.builder()
-                    .serverUrl(BuildConfig.GRAPHQL_ENDPOINT)
-                    .okHttpClient(okHttp)
-                    .addCustomTypeAdapter(CustomType.URLSTRING, URLStringAdapter())
-                    .addCustomTypeAdapter(CustomType.MBID, MBIDAdapter())
-                    .addCustomTypeAdapter(CustomType.DATE, DateAdapter())
-                    .build()
+            .serverUrl(BuildConfig.GRAPHQL_ENDPOINT)
+            .okHttpClient(okHttp)
+            .addCustomTypeAdapter(CustomType.URLSTRING, URLStringAdapter())
+            .addCustomTypeAdapter(CustomType.MBID, MBIDAdapter())
+            .addCustomTypeAdapter(CustomType.DATE, DateAdapter())
+            .build()
 
     val searchResults = MutableLiveData<ArtistSearchQuery.Data>()
     val detailsResults = MutableLiveData<ArtistDetailsQuery.Data>()
@@ -47,9 +47,9 @@ class MainViewModel: ViewModel() {
     fun search(query: String) {
         disposables.apply {
             clear()
-            add(Rx2Apollo.from(apolloClient.query(ArtistSearchQuery(
-                    input = query
-            ))).firstElement()
+            add(Rx2Apollo.from(apolloClient.query(
+                    ArtistSearchQuery(input = query)
+            )).firstElement()
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe({
@@ -64,9 +64,9 @@ class MainViewModel: ViewModel() {
     fun details(mbid: String) {
         disposables.apply {
             clear()
-            add(Rx2Apollo.from(apolloClient.query(ArtistDetailsQuery(
-                    mbid = mbid
-            ))).firstElement()
+            add(Rx2Apollo.from(apolloClient.query(
+                    ArtistDetailsQuery(mbid = mbid)
+            )).firstElement()
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe({
