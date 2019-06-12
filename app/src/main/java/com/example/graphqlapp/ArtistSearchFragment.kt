@@ -1,5 +1,6 @@
 package com.example.graphqlapp
 
+import ArtistSearchQuery
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,11 +9,11 @@ import androidx.appcompat.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import kotlinx.android.synthetic.main.fragment_artist_search.*
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.fragment_artist_search.*
 import kotlinx.android.synthetic.main.viewholder_search_results.view.*
 
 class ArtistSearchFragment: Fragment() {

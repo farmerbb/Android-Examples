@@ -1,5 +1,6 @@
 package com.example.graphqlapp
 
+import ArtistDetailsQuery
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,10 +12,10 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.viewholder_details_results.view.*
 import kotlinx.android.synthetic.main.fragment_artist_details.*
 import kotlinx.android.synthetic.main.fragment_artist_search.progressBar
 import kotlinx.android.synthetic.main.fragment_artist_search.recyclerView
+import kotlinx.android.synthetic.main.viewholder_details_results.view.*
 
 class ArtistDetailsFragment: Fragment() {
 

@@ -1,23 +1,21 @@
 package com.example.graphqlapp
 
+import ArtistDetailsQuery
+import ArtistSearchQuery
+import android.net.Uri
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.apollographql.apollo.ApolloClient
+import com.apollographql.apollo.response.CustomTypeAdapter
+import com.apollographql.apollo.response.CustomTypeValue
 import com.apollographql.apollo.rx2.Rx2Apollo
 import com.ihsanbal.logging.Level
 import com.ihsanbal.logging.LoggingInterceptor
+import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.schedulers.Schedulers
 import okhttp3.OkHttpClient
 import okhttp3.internal.platform.Platform
-import ArtistSearchQuery
-import ArtistDetailsQuery
-import android.app.Application
-import android.net.Uri
-import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.MutableLiveData
-import com.apollographql.apollo.response.CustomTypeAdapter
-import com.apollographql.apollo.response.CustomTypeValue
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.schedulers.Schedulers
 import type.CustomType
 
 class MainViewModel: ViewModel() {
