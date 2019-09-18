@@ -1,9 +1,1 @@
-# Android Examples
-
-[Handlers](https://github.com/farmerbb/Android-Examples/tree/handlers)
-
-[Intents and Broadcast Receivers](https://github.com/farmerbb/Android-Examples/tree/intents-broadcastreceivers)
-
-[Background Execution](https://github.com/farmerbb/Android-Examples/tree/background-execution)
-
-[GraphQL and Apollo Client](https://github.com/farmerbb/Android-Examples/tree/graphql)
+Example of how to create a RecyclerView inside an Android app.

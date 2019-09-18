@@ -1,0 +1,1764 @@
+{
+  "pokemon": [
+    {
+      "name": "Bulbasaur",
+      "number": "001",
+      "image": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "002"
+        },
+        {
+          "number": "003"
+        }
+      ]
+    },
+    {
+      "name": "Ivysaur",
+      "number": "002",
+      "image": "https://img.pokemondb.net/artwork/ivysaur.jpg",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "003"
+        }
+      ]
+    },
+    {
+      "name": "Venusaur",
+      "number": "003",
+      "image": "https://img.pokemondb.net/artwork/venusaur.jpg",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Charmander",
+      "number": "004",
+      "image": "https://img.pokemondb.net/artwork/charmander.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": [
+        {
+          "number": "005"
+        },
+        {
+          "number": "006"
+        }
+      ]
+    },
+    {
+      "name": "Charmeleon",
+      "number": "005",
+      "image": "https://img.pokemondb.net/artwork/charmeleon.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": [
+        {
+          "number": "006"
+        }
+      ]
+    },
+    {
+      "name": "Charizard",
+      "number": "006",
+      "image": "https://img.pokemondb.net/artwork/charizard.jpg",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Squirtle",
+      "number": "007",
+      "image": "https://img.pokemondb.net/artwork/squirtle.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "008"
+        },
+        {
+          "number": "009"
+        }
+      ]
+    },
+    {
+      "name": "Wartortle",
+      "number": "008",
+      "image": "https://img.pokemondb.net/artwork/wartortle.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "009"
+        }
+      ]
+    },
+    {
+      "name": "Blastoise",
+      "number": "009",
+      "image": "https://img.pokemondb.net/artwork/blastoise.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Caterpie",
+      "number": "010",
+      "image": "https://img.pokemondb.net/artwork/caterpie.jpg",
+      "types": [
+        "Bug"
+      ],
+      "evolutions": [
+        {
+          "number": "011"
+        },
+        {
+          "number": "012"
+        }
+      ]
+    },
+    {
+      "name": "Metapod",
+      "number": "011",
+      "image": "https://img.pokemondb.net/artwork/metapod.jpg",
+      "types": [
+        "Bug"
+      ],
+      "evolutions": [
+        {
+          "number": "012"
+        }
+      ]
+    },
+    {
+      "name": "Butterfree",
+      "number": "012",
+      "image": "https://img.pokemondb.net/artwork/butterfree.jpg",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Weedle",
+      "number": "013",
+      "image": "https://img.pokemondb.net/artwork/weedle.jpg",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "014"
+        },
+        {
+          "number": "015"
+        }
+      ]
+    },
+    {
+      "name": "Kakuna",
+      "number": "014",
+      "image": "https://img.pokemondb.net/artwork/kakuna.jpg",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "015"
+        }
+      ]
+    },
+    {
+      "name": "Beedrill",
+      "number": "015",
+      "image": "https://img.pokemondb.net/artwork/beedrill.jpg",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Pidgey",
+      "number": "016",
+      "image": "https://img.pokemondb.net/artwork/pidgey.jpg",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "evolutions": [
+        {
+          "number": "017"
+        },
+        {
+          "number": "018"
+        }
+      ]
+    },
+    {
+      "name": "Pidgeotto",
+      "number": "017",
+      "image": "https://img.pokemondb.net/artwork/pidgeotto.jpg",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "evolutions": [
+        {
+          "number": "018"
+        }
+      ]
+    },
+    {
+      "name": "Pidgeot",
+      "number": "018",
+      "image": "https://img.pokemondb.net/artwork/pidgeot.jpg",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Rattata",
+      "number": "019",
+      "image": "https://img.pokemondb.net/artwork/rattata.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": [
+        {
+          "number": "020"
+        }
+      ]
+    },
+    {
+      "name": "Raticate",
+      "number": "020",
+      "image": "https://img.pokemondb.net/artwork/raticate.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Spearow",
+      "number": "021",
+      "image": "https://img.pokemondb.net/artwork/spearow.jpg",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "evolutions": [
+        {
+          "number": "022"
+        }
+      ]
+    },
+    {
+      "name": "Fearow",
+      "number": "022",
+      "image": "https://img.pokemondb.net/artwork/fearow.jpg",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Ekans",
+      "number": "023",
+      "image": "https://img.pokemondb.net/artwork/ekans.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "024"
+        }
+      ]
+    },
+    {
+      "name": "Arbok",
+      "number": "024",
+      "image": "https://img.pokemondb.net/artwork/arbok.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Pikachu",
+      "number": "025",
+      "image": "https://img.pokemondb.net/artwork/pikachu.jpg",
+      "types": [
+        "Electric"
+      ],
+      "evolutions": [
+        {
+          "number": "026"
+        }
+      ]
+    },
+    {
+      "name": "Raichu",
+      "number": "026",
+      "image": "https://img.pokemondb.net/artwork/raichu.jpg",
+      "types": [
+        "Electric"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Sandshrew",
+      "number": "027",
+      "image": "https://img.pokemondb.net/artwork/sandshrew.jpg",
+      "types": [
+        "Ground"
+      ],
+      "evolutions": [
+        {
+          "number": "028"
+        }
+      ]
+    },
+    {
+      "name": "Sandslash",
+      "number": "028",
+      "image": "https://img.pokemondb.net/artwork/sandslash.jpg",
+      "types": [
+        "Ground"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Nidoran-F",
+      "number": "029",
+      "image": "https://img.pokemondb.net/artwork/nidoran-f.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "030"
+        },
+        {
+          "number": "031"
+        }
+      ]
+    },
+    {
+      "name": "Nidorina",
+      "number": "030",
+      "image": "https://img.pokemondb.net/artwork/nidorina.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "031"
+        }
+      ]
+    },
+    {
+      "name": "Nidoqueen",
+      "number": "031",
+      "image": "https://img.pokemondb.net/artwork/nidoqueen.jpg",
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Nidoran-M",
+      "number": "032",
+      "image": "https://img.pokemondb.net/artwork/nidoran-m.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "033"
+        },
+        {
+          "number": "034"
+        }
+      ]
+    },
+    {
+      "name": "Nidorino",
+      "number": "033",
+      "image": "https://img.pokemondb.net/artwork/nidorino.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "034"
+        }
+      ]
+    },
+    {
+      "name": "Nidoking",
+      "number": "034",
+      "image": "https://img.pokemondb.net/artwork/nidoking.jpg",
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Clefairy",
+      "number": "035",
+      "image": "https://img.pokemondb.net/artwork/clefairy.jpg",
+      "types": [
+        "Fairy"
+      ],
+      "evolutions": [
+        {
+          "number": "036"
+        }
+      ]
+    },
+    {
+      "name": "Clefable",
+      "number": "036",
+      "image": "https://img.pokemondb.net/artwork/clefable.jpg",
+      "types": [
+        "Fairy"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Vulpix",
+      "number": "037",
+      "image": "https://img.pokemondb.net/artwork/vulpix.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": [
+        {
+          "number": "038"
+        }
+      ]
+    },
+    {
+      "name": "Ninetales",
+      "number": "038",
+      "image": "https://img.pokemondb.net/artwork/ninetales.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Jigglypuff",
+      "number": "039",
+      "image": "https://img.pokemondb.net/artwork/jigglypuff.jpg",
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "evolutions": [
+        {
+          "number": "039"
+        }
+      ]
+    },
+    {
+      "name": "Wigglytuff",
+      "number": "040",
+      "image": "https://img.pokemondb.net/artwork/wigglytuff.jpg",
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Zubat",
+      "number": "041",
+      "image": "https://img.pokemondb.net/artwork/zubat.jpg",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "evolutions": [
+        {
+          "number": "042"
+        }
+      ]
+    },
+    {
+      "name": "Golbat",
+      "number": "042",
+      "image": "https://img.pokemondb.net/artwork/golbat.jpg",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Oddish",
+      "number": "043",
+      "image": "https://img.pokemondb.net/artwork/oddish.jpg",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "044"
+        },
+        {
+          "number": "045"
+        }
+      ]
+    },
+    {
+      "name": "Gloom",
+      "number": "044",
+      "image": "https://img.pokemondb.net/artwork/gloom.jpg",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "045"
+        }
+      ]
+    },
+    {
+      "name": "Vileplume",
+      "number": "045",
+      "image": "https://img.pokemondb.net/artwork/vileplume.jpg",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Paras",
+      "number": "046",
+      "image": "https://img.pokemondb.net/artwork/paras.jpg",
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "evolutions": [
+        {
+          "number": "047"
+        }
+      ]
+    },
+    {
+      "name": "Parasect",
+      "number": "047",
+      "image": "https://img.pokemondb.net/artwork/parasect.jpg",
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Venonat",
+      "number": "048",
+      "image": "https://img.pokemondb.net/artwork/venonat.jpg",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "049"
+        }
+      ]
+    },
+    {
+      "name": "Venomoth",
+      "number": "049",
+      "image": "https://img.pokemondb.net/artwork/venomoth.jpg",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Diglett",
+      "number": "050",
+      "image": "https://img.pokemondb.net/artwork/diglett.jpg",
+      "types": [
+        "Ground"
+      ],
+      "evolutions": [
+        {
+          "number": "051"
+        }
+      ]
+    },
+    {
+      "name": "Dugtrio",
+      "number": "051",
+      "image": "https://img.pokemondb.net/artwork/dugtrio.jpg",
+      "types": [
+        "Ground"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Meowth",
+      "number": "052",
+      "image": "https://img.pokemondb.net/artwork/meowth.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": [
+        {
+          "number": "053"
+        }
+      ]
+    },
+    {
+      "name": "Persian",
+      "number": "053",
+      "image": "https://img.pokemondb.net/artwork/persian.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Psyduck",
+      "number": "054",
+      "image": "https://img.pokemondb.net/artwork/psyduck.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "055"
+        }
+      ]
+    },
+    {
+      "name": "Golduck",
+      "number": "055",
+      "image": "https://img.pokemondb.net/artwork/golduck.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Mankey",
+      "number": "056",
+      "image": "https://img.pokemondb.net/artwork/mankey.jpg",
+      "types": [
+        "Fighting"
+      ],
+      "evolutions": [
+        {
+          "number": "057"
+        }
+      ]
+    },
+    {
+      "name": "Primeape",
+      "number": "057",
+      "image": "https://img.pokemondb.net/artwork/primeape.jpg",
+      "types": [
+        "Fighting"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Growlithe",
+      "number": "058",
+      "image": "https://img.pokemondb.net/artwork/growlithe.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": [
+        {
+          "number": "059"
+        }
+      ]
+    },
+    {
+      "name": "Arcanine",
+      "number": "059",
+      "image": "https://img.pokemondb.net/artwork/arcanine.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Poliwag",
+      "number": "060",
+      "image": "https://img.pokemondb.net/artwork/poliwag.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "061"
+        },
+        {
+          "number": "062"
+        }
+      ]
+    },
+    {
+      "name": "Poliwhirl",
+      "number": "061",
+      "image": "https://img.pokemondb.net/artwork/poliwhirl.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "062"
+        }
+      ]
+    },
+    {
+      "name": "Poliwrath",
+      "number": "062",
+      "image": "https://img.pokemondb.net/artwork/poliwrath.jpg",
+      "types": [
+        "Water",
+        "Fighting"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Abra",
+      "number": "063",
+      "image": "https://img.pokemondb.net/artwork/abra.jpg",
+      "types": [
+        "Psychic"
+      ],
+      "evolutions": [
+        {
+          "number": "064"
+        },
+        {
+          "number": "065"
+        }
+      ]
+    },
+    {
+      "name": "Kadabra",
+      "number": "064",
+      "image": "https://img.pokemondb.net/artwork/kadabra.jpg",
+      "types": [
+        "Psychic"
+      ],
+      "evolutions": [
+        {
+          "number": "065"
+        }
+      ]
+    },
+    {
+      "name": "Alakazam",
+      "number": "065",
+      "image": "https://img.pokemondb.net/artwork/alakazam.jpg",
+      "types": [
+        "Psychic"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Machop",
+      "number": "066",
+      "image": "https://img.pokemondb.net/artwork/machop.jpg",
+      "types": [
+        "Fighting"
+      ],
+      "evolutions": [
+        {
+          "number": "067"
+        },
+        {
+          "number": "068"
+        }
+      ]
+    },
+    {
+      "name": "Machoke",
+      "number": "067",
+      "image": "https://img.pokemondb.net/artwork/machoke.jpg",
+      "types": [
+        "Fighting"
+      ],
+      "evolutions": [
+        {
+          "number": "068"
+        }
+      ]
+    },
+    {
+      "name": "Machamp",
+      "number": "068",
+      "image": "https://img.pokemondb.net/artwork/machamp.jpg",
+      "types": [
+        "Fighting"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Bellsprout",
+      "number": "069",
+      "image": "https://img.pokemondb.net/artwork/bellsprout.jpg",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "070"
+        },
+        {
+          "number": "071"
+        }
+      ]
+    },
+    {
+      "name": "Weepinbell",
+      "number": "070",
+      "image": "https://img.pokemondb.net/artwork/weepinbell.jpg",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "071"
+        }
+      ]
+    },
+    {
+      "name": "Victreebel",
+      "number": "071",
+      "image": "https://img.pokemondb.net/artwork/victreebel.jpg",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Tentacool",
+      "number": "072",
+      "image": "https://img.pokemondb.net/artwork/tentacool.jpg",
+      "types": [
+        "Water",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "073"
+        }
+      ]
+    },
+    {
+      "name": "Tentacruel",
+      "number": "073",
+      "image": "https://img.pokemondb.net/artwork/tentacruel.jpg",
+      "types": [
+        "Water",
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Geodude",
+      "number": "074",
+      "image": "https://img.pokemondb.net/artwork/geodude.jpg",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "evolutions": [
+        {
+          "number": "075"
+        },
+        {
+          "number": "076"
+        }
+      ]
+    },
+    {
+      "name": "Graveler",
+      "number": "075",
+      "image": "https://img.pokemondb.net/artwork/graveler.jpg",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "evolutions": [
+        {
+          "number": "076"
+        }
+      ]
+    },
+    {
+      "name": "Golem",
+      "number": "076",
+      "image": "https://img.pokemondb.net/artwork/golem.jpg",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Ponyta",
+      "number": "077",
+      "image": "https://img.pokemondb.net/artwork/ponyta.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": [
+        {
+          "number": "078"
+        }
+      ]
+    },
+    {
+      "name": "Rapidash",
+      "number": "078",
+      "image": "https://img.pokemondb.net/artwork/rapidash.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Slowpoke",
+      "number": "079",
+      "image": "https://img.pokemondb.net/artwork/slowpoke.jpg",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "evolutions": [
+        {
+          "number": "080"
+        }
+      ]
+    },
+    {
+      "name": "Slowbro",
+      "number": "080",
+      "image": "https://img.pokemondb.net/artwork/slowbro.jpg",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Magnemite",
+      "number": "081",
+      "image": "https://img.pokemondb.net/artwork/magnemite.jpg",
+      "types": [
+        "Electric",
+        "Steel"
+      ],
+      "evolutions": [
+        {
+          "number": "082"
+        }
+      ]
+    },
+    {
+      "name": "Magneton",
+      "number": "082",
+      "image": "https://img.pokemondb.net/artwork/magneton.jpg",
+      "types": [
+        "Electric",
+        "Steel"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Farfetch'd",
+      "number": "083",
+      "image": "https://img.pokemondb.net/artwork/farfetchd.jpg",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Doduo",
+      "number": "084",
+      "image": "https://img.pokemondb.net/artwork/doduo.jpg",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "evolutions": [
+        {
+          "number": "085"
+        }
+      ]
+    },
+    {
+      "name": "Dodrio",
+      "number": "085",
+      "image": "https://img.pokemondb.net/artwork/dodrio.jpg",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Seel",
+      "number": "086",
+      "image": "https://img.pokemondb.net/artwork/seel.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "087"
+        }
+      ]
+    },
+    {
+      "name": "Dewgong",
+      "number": "087",
+      "image": "https://img.pokemondb.net/artwork/dewgong.jpg",
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Grimer",
+      "number": "088",
+      "image": "https://img.pokemondb.net/artwork/grimer.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "089"
+        }
+      ]
+    },
+    {
+      "name": "Muk",
+      "number": "089",
+      "image": "https://img.pokemondb.net/artwork/muk.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Shellder",
+      "number": "090",
+      "image": "https://img.pokemondb.net/artwork/shellder.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "091"
+        }
+      ]
+    },
+    {
+      "name": "Cloyster",
+      "number": "091",
+      "image": "https://img.pokemondb.net/artwork/cloyster.jpg",
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Gastly",
+      "number": "092",
+      "image": "https://img.pokemondb.net/artwork/gastly.jpg",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "093"
+        },
+        {
+          "number": "094"
+        }
+      ]
+    },
+    {
+      "name": "Haunter",
+      "number": "093",
+      "image": "https://img.pokemondb.net/artwork/haunter.jpg",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "094"
+        }
+      ]
+    },
+    {
+      "name": "Gengar",
+      "number": "094",
+      "image": "https://img.pokemondb.net/artwork/gengar.jpg",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Onix",
+      "number": "095",
+      "image": "https://img.pokemondb.net/artwork/onix.jpg",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Drowzee",
+      "number": "096",
+      "image": "https://img.pokemondb.net/artwork/drowzee.jpg",
+      "types": [
+        "Psychic"
+      ],
+      "evolutions": [
+        {
+          "number": "097"
+        }
+      ]
+    },
+    {
+      "name": "Hypno",
+      "number": "097",
+      "image": "https://img.pokemondb.net/artwork/hypno.jpg",
+      "types": [
+        "Psychic"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Krabby",
+      "number": "098",
+      "image": "https://img.pokemondb.net/artwork/krabby.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "099"
+        }
+      ]
+    },
+    {
+      "name": "Kingler",
+      "number": "099",
+      "image": "https://img.pokemondb.net/artwork/kingler.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Voltorb",
+      "number": "100",
+      "image": "https://img.pokemondb.net/artwork/voltorb.jpg",
+      "types": [
+        "Electric"
+      ],
+      "evolutions": [
+        {
+          "number": "101"
+        }
+      ]
+    },
+    {
+      "name": "Electrode",
+      "number": "101",
+      "image": "https://img.pokemondb.net/artwork/electrode.jpg",
+      "types": [
+        "Electric"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Exeggcute",
+      "number": "102",
+      "image": "https://img.pokemondb.net/artwork/exeggcute.jpg",
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "evolutions": [
+        {
+          "number": "103"
+        }
+      ]
+    },
+    {
+      "name": "Exeggutor",
+      "number": "103",
+      "image": "https://img.pokemondb.net/artwork/exeggutor.jpg",
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Cubone",
+      "number": "104",
+      "image": "https://img.pokemondb.net/artwork/cubone.jpg",
+      "types": [
+        "Ground"
+      ],
+      "evolutions": [
+        {
+          "number": "105"
+        }
+      ]
+    },
+    {
+      "name": "Marowak",
+      "number": "105",
+      "image": "https://img.pokemondb.net/artwork/marowak.jpg",
+      "types": [
+        "Ground"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Hitmonlee",
+      "number": "106",
+      "image": "https://img.pokemondb.net/artwork/hitmonlee.jpg",
+      "types": [
+        "Fighting"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Hitmonchan",
+      "number": "107",
+      "image": "https://img.pokemondb.net/artwork/hitmonchan.jpg",
+      "types": [
+        "Fighting"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Lickitung",
+      "number": "108",
+      "image": "https://img.pokemondb.net/artwork/lickitung.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Koffing",
+      "number": "109",
+      "image": "https://img.pokemondb.net/artwork/koffing.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": [
+        {
+          "number": "110"
+        }
+      ]
+    },
+    {
+      "name": "Weezing",
+      "number": "110",
+      "image": "https://img.pokemondb.net/artwork/weezing.jpg",
+      "types": [
+        "Poison"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Rhyhorn",
+      "number": "111",
+      "image": "https://img.pokemondb.net/artwork/rhyhorn.jpg",
+      "types": [
+        "Ground",
+        "Rock"
+      ],
+      "evolutions": [
+        {
+          "number": "112"
+        }
+      ]
+    },
+    {
+      "name": "Rhydon",
+      "number": "112",
+      "image": "https://img.pokemondb.net/artwork/rhydon.jpg",
+      "types": [
+        "Ground",
+        "Rock"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Chansey",
+      "number": "113",
+      "image": "https://img.pokemondb.net/artwork/chansey.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Tangela",
+      "number": "114",
+      "image": "https://img.pokemondb.net/artwork/tangela.jpg",
+      "types": [
+        "Grass"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Kangaskhan",
+      "number": "115",
+      "image": "https://img.pokemondb.net/artwork/kangaskhan.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Horsea",
+      "number": "116",
+      "image": "https://img.pokemondb.net/artwork/horsea.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "117"
+        }
+      ]
+    },
+    {
+      "name": "Seadra",
+      "number": "117",
+      "image": "https://img.pokemondb.net/artwork/seadra.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Goldeen",
+      "number": "118",
+      "image": "https://img.pokemondb.net/artwork/goldeen.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "119"
+        }
+      ]
+    },
+    {
+      "name": "Seaking",
+      "number": "119",
+      "image": "https://img.pokemondb.net/artwork/seaking.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Staryu",
+      "number": "120",
+      "image": "https://img.pokemondb.net/artwork/staryu.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "121"
+        }
+      ]
+    },
+    {
+      "name": "Starmie",
+      "number": "121",
+      "image": "https://img.pokemondb.net/artwork/starmie.jpg",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Mr. Mime",
+      "number": "122",
+      "image": "https://img.pokemondb.net/artwork/mr-mime.jpg",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Scyther",
+      "number": "123",
+      "image": "https://img.pokemondb.net/artwork/scyther.jpg",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Jynx",
+      "number": "124",
+      "image": "https://img.pokemondb.net/artwork/jynx.jpg",
+      "types": [
+        "Ice",
+        "Psychic"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Electabuzz",
+      "number": "125",
+      "image": "https://img.pokemondb.net/artwork/electabuzz.jpg",
+      "types": [
+        "Electric"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Magmar",
+      "number": "126",
+      "image": "https://img.pokemondb.net/artwork/magmar.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Pinsir",
+      "number": "127",
+      "image": "https://img.pokemondb.net/artwork/pinsir.jpg",
+      "types": [
+        "Bug"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Tauros",
+      "number": "128",
+      "image": "https://img.pokemondb.net/artwork/tauros.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Magikarp",
+      "number": "129",
+      "image": "https://img.pokemondb.net/artwork/magikarp.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "130"
+        }
+      ]
+    },
+    {
+      "name": "Gyarados",
+      "number": "130",
+      "image": "https://img.pokemondb.net/artwork/gyarados.jpg",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Lapras",
+      "number": "131",
+      "image": "https://img.pokemondb.net/artwork/lapras.jpg",
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Ditto",
+      "number": "132",
+      "image": "https://img.pokemondb.net/artwork/ditto.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Eevee",
+      "number": "133",
+      "image": "https://img.pokemondb.net/artwork/eevee.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": [
+        {
+          "number": "134"
+        },
+        {
+          "number": "135"
+        },
+        {
+          "number": "136"
+        }
+      ]
+    },
+    {
+      "name": "Vaporeon",
+      "number": "134",
+      "image": "https://img.pokemondb.net/artwork/vaporeon.jpg",
+      "types": [
+        "Water"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Jolteon",
+      "number": "135",
+      "image": "https://img.pokemondb.net/artwork/jolteon.jpg",
+      "types": [
+        "Electric"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Flareon",
+      "number": "136",
+      "image": "https://img.pokemondb.net/artwork/flareon.jpg",
+      "types": [
+        "Fire"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Porygon",
+      "number": "137",
+      "image": "https://img.pokemondb.net/artwork/porygon.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Omanyte",
+      "number": "138",
+      "image": "https://img.pokemondb.net/artwork/omanyte.jpg",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "139"
+        }
+      ]
+    },
+    {
+      "name": "Omastar",
+      "number": "139",
+      "image": "https://img.pokemondb.net/artwork/omastar.jpg",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Kabuto",
+      "number": "140",
+      "image": "https://img.pokemondb.net/artwork/kabuto.jpg",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "evolutions": [
+        {
+          "number": "141"
+        }
+      ]
+    },
+    {
+      "name": "Kabutops",
+      "number": "141",
+      "image": "https://img.pokemondb.net/artwork/kabutops.jpg",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Aerodactyl",
+      "number": "142",
+      "image": "https://img.pokemondb.net/artwork/aerodactyl.jpg",
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Snorlax",
+      "number": "143",
+      "image": "https://img.pokemondb.net/artwork/snorlax.jpg",
+      "types": [
+        "Normal"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Articuno",
+      "number": "144",
+      "image": "https://img.pokemondb.net/artwork/articuno.jpg",
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Zapdos",
+      "number": "145",
+      "image": "https://img.pokemondb.net/artwork/zapdos.jpg",
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Moltres",
+      "number": "146",
+      "image": "https://img.pokemondb.net/artwork/moltres.jpg",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Dratini",
+      "number": "147",
+      "image": "https://img.pokemondb.net/artwork/dratini.jpg",
+      "types": [
+        "Dragon"
+      ],
+      "evolutions": [
+        {
+          "number": "148"
+        },
+        {
+          "number": "149"
+        }
+      ]
+    },
+    {
+      "name": "Dragonair",
+      "number": "148",
+      "image": "https://img.pokemondb.net/artwork/dragonair.jpg",
+      "types": [
+        "Dragon"
+      ],
+      "evolutions": [
+        {
+          "number": "149"
+        }
+      ]
+    },
+    {
+      "name": "Dragonite",
+      "number": "149",
+      "image": "https://img.pokemondb.net/artwork/dragonite.jpg",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Mewtwo",
+      "number": "150",
+      "image": "https://img.pokemondb.net/artwork/mewtwo.jpg",
+      "types": [
+        "Psychic"
+      ],
+      "evolutions": null
+    },
+    {
+      "name": "Mew",
+      "number": "151",
+      "image": "https://img.pokemondb.net/artwork/mew.jpg",
+      "types": [
+        "Psychic"
+      ],
+      "evolutions": null
+    }
+  ]
+}
