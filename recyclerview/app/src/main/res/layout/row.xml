@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/pokemon_image"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        tools:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pokemon_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:textStyle="bold"
+            tools:text="Mewtwo"/>
+
+        <TextView
+            android:id="@+id/pokemon_types"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            tools:text="Psychic"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pokemon_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="8dp"
+        android:paddingTop="4dp"
+        android:textSize="20sp"
+        tools:text="150"/>
+
+</LinearLayout>
