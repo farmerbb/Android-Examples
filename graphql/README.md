@@ -1,0 +1,1 @@
+Example of how to implement network requests in an Android app using GraphQL and Apollo Client.

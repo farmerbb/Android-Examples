@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GraphQL Example</string>
+    <string name="search_for_artist">"Search for artist&#8230;"</string>
+</resources>

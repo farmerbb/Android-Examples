@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.apollographql.android'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+def graphqlEndpoint = "https://graphbrainz.herokuapp.com/graphql"
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath('com.apollographql.apollo:apollo-gradle-plugin:1.0.0') {
+            exclude group: 'com.android.tools.build', module: 'gradle'
+        }
+    }
+}
+
+repositories {
+    google()
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+apollo {
+    customTypeMapping = [
+            "URLString": "android.net.Uri",
+            "MBID": "kotlin.String",
+            "Date": "kotlin.String"
+    ]
+
+    generateKotlinModels = true
+}
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.graphqlapp"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField "String", "GRAPHQL_ENDPOINT", "\"$graphqlEndpoint\""
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.core:core-ktx:1.0.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.9'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation ('com.github.ihsanbal:LoggingInterceptor:3.0.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+    implementation 'com.apollographql.apollo:apollo-runtime:1.0.0'
+    implementation 'com.apollographql.apollo:apollo-rx2-support:1.0.0'
+}
+
+task generateSchema(type: NodeTask) {
+    script = file("$buildDir/apollo-codegen/node_modules/.bin/apollo-codegen")
+    args = ["introspect-schema", graphqlEndpoint] // , "--header", "Authorization: Bearer 0123456789abcdef..."]
+
+    execOverrides {
+        it.ignoreExitValue = true
+        it.workingDir = "$project.projectDir/src/main/graphql"
+    }
+}
+
+installApolloCodegen.finalizedBy generateSchema
